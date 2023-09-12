@@ -1,0 +1,523 @@
+/*Trupa*/   
+#intro{
+    background: url("static/background.png") no-repeat right;
+    height: auto;
+    width: calc(100% + 115px);
+}
+#intro img{
+    width: 20%;
+    height: auto;
+    margin-top:100px;
+}
+#info-grup h1{
+    font-weight: 500;
+    font-size: 3.5rem;
+    margin-top: 50px;
+}
+#info-grup p{
+    max-width: 450px;
+    margin: 20px 0 40px 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+#intro button{
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    background-color: #ffa51b;
+    padding: 16px 72px;
+    border-radius: 27px;
+    border: 0;
+}
+@media only screen and (max-width: 1440px) {
+    #info-grup h1{
+        font-size: 3rem;
+        margin-top: 20px;
+    }
+    #info-grup p{
+        font-size: 1rem;
+        margin: 20px 0 30px 0;
+    }
+    #intro button{
+        font-size: 1.5rem;
+        padding: 8px 36px;
+    }
+}
+@media only screen and (max-width: 1270px) {
+    #info-grup h1{
+        font-size: 2rem;
+        margin-top: 10px;
+    }
+    #info-grup p{
+        font-size: 0.8rem;
+        max-width: 320px;
+        margin: 10px 0 20px 0;
+    }
+}
+/*Trupa*/
+/*Despre Noi*/
+#about{
+    width: calc(100% - 100px);
+    margin: 160px 0;
+}
+#about > h2{
+    max-width: calc(100% - 100px);
+    font-weight: 500;
+    font-size: 3rem;
+    margin-bottom: 60px;
+}
+#about > div{
+    display: flex;
+    justify-content: space-between;
+}
+#about > div h2{
+    font-weight: 500;
+    font-size: 3.7rem;
+}
+#about > div h6{
+    margin: 21px 0;
+    font-size: 2rem;
+    font-weight: 500;
+}
+#about p{
+    max-width: 300px;
+    font-weight: 400;
+    font-size: 1rem;
+}
+@media only screen and (max-width: 1440px) {
+    #about > h2,#beneficii > h2{font-size: 2.7rem;}
+    #about > div h2{font-size: 3.5rem;}
+    #about > div h6,.benefit > h6{font-size: 1.8rem;}
+    #about p,.benefit > p{font-size: 0.9rem;}
+}
+@media only screen and (max-width: 1270px) {
+    #about > h2,#beneficii > h2{font-size: 2.4rem;}
+    #about > div h2{font-size: 3.3rem;}
+    #about > div h6,.benefit > h6{font-size: 1.45rem;}
+    #about p,.benefit > p{font-size: 0.8rem;}
+}
+/*Despre Noi*/
+/*Beneficii*/
+#beneficii{color: white;}
+#beneficii > img{
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    width: 100vw;
+    height: calc(100% - 100px);
+    background-color: black;
+}
+#beneficii > h2{
+    width: 100%;
+    font-weight: 500;
+    font-size: 3rem;
+    padding-top: 60px;
+}
+#beneficii > div{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.benefit > img{
+    width: 133px;
+    height: 133px;
+}
+.benefit > h6{
+    margin: 26px 0px 29px 0px;
+    font-size: 2rem;
+    font-weight: 400;
+}
+.benefit > p{
+    max-width: 300px;
+    font-weight: 400;
+    font-size: 1rem;
+}
+/*Beneficii*/
+/*#Amintiri{
+    width: 1600px;
+    height: 1028px;
+    margin: 0px 160px 160px 160px;
+
+}
+#Amintiri > h2{
+    width: 185px;
+    height: 78px;
+    font-weight: 500;
+    font-size: 52px;
+    letter-spacing: 0.01em;
+    color: black;
+    margin: 0px 0px 56px 0px;
+}
+#grp121{
+    display: flex;
+    flex-direction: row;
+}
+#grp121 > h4{
+    margin: 0px;
+}
+#h41{
+    width: 123px;
+    height: 45px;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 00.01em;
+}
+#h42{
+    width: 16px;
+    height: 45px;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 0.01em;
+}
+#h43{
+    width: 160px;
+    height: 45px;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 00.01em;    
+}
+#grp124{
+    width: 1600px;
+    height: 752px;
+    display: grid;
+    margin-top: 32px;
+}
+#frame154{
+    display: flex;
+    justify-content: center;
+}
+#frame154 > button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 177px;
+    padding: 0px;
+    height: 65px;
+    background-color: white;
+    border: 2.6px solid #FD9900;
+    border-radius: 22px;
+}
+#mai-multe > p{
+    display: flex;
+    align-items: center;
+    width: 93px;
+    height: 33px;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.01em;
+    margin: 0px;
+}
+.imgrow1{
+    width: 501px;
+    height: 268px;
+    background-color: #616161;
+}
+.imgrow2{
+    width: 364px;
+    height: 400px;
+    background-color: #616161;
+}
+#grp124 > div{
+    display: flex;
+    justify-content: space-between;
+
+}
+#grp124-1{
+    height: 268px;
+}
+#grp124-2{
+    height: 400px;
+}
+/************************************************************************/
+#info-membri{
+    width: 1920px;
+    height: 852px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 160px;
+}
+#info-membri > h2{
+    width: 100%;
+    height: 78px;
+    font-weight: 500;
+    font-size: 52px;
+    letter-spacing: 0.01em;
+    margin: 0px 0px 56px 460px;
+}
+#frame64{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.elipse{
+    margin-top: 40px;
+    margin-right: 13px;
+    width: 16px;
+    height: 16px;
+    background: gray;
+    border-radius: 100%;
+}
+#frame129{
+    width: 211px;
+    height: 45px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#frame129 > img{
+    width: 45px;
+    height: 45px;
+}
+#frame129 > p{
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    width: 158px;
+    height: 45px;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.01em;
+    margin: 0px;
+}
+#frame160 > img{
+    width: 200px;
+    height: 200px;
+    border-radius: 134px;
+}
+#grp128{
+    margin-top: 8px;
+}
+#grp128 > h4{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 45px;
+    font-weight: 400;
+    font-size: 30px;
+    letter-spacing: 0.01em;
+    margin: 0px;
+    margin-top: 28px;
+}
+#grp128 > p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 0.01em;
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+#frame160{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 344px;
+    height: 490px;
+    background-color: gray;
+    border-radius: 28px;
+}
+#grp168{
+    width: 1600px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#grp75{
+    width: 48px;
+    height: 48px;
+    background-image: url("next-button.png");
+    rotate: 180deg;
+}
+#grp74{
+    width: 48px;
+    height: 48px;
+    background-image: url("next-button.png");
+}
+/************************************************************************/
+#recenzii{
+    width: 1739px;
+    height: 601px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0px 90px 160px 90px;
+}
+#recenzii > h2{
+    width: 525px;
+    height: 78px;
+    font-weight: 500;
+    font-size: 52px;
+    letter-spacing: 0.01em;
+    margin: 0px;
+    margin-bottom: 56px;
+    margin-left: 79px;
+}
+#grp169{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#frame167{
+    width: 501px;
+    height: 391px;
+    background: #FFFFFF;
+    box-shadow: 0px 10.6702px 66.6888px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+}
+#grp132{
+    width: 427px;
+    height: 331px;
+    padding: 32px 32px 48px 42px;
+}
+#grp131{
+    width: 427px;
+    height: 134px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+}
+#grp132 > p{
+    width: 427px;
+    height: 165px;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 0.01em;
+    margin: 0px;
+}
+#recenzii-info{
+    margin-right: 90px;
+}
+#recenzii-info > h1{
+    width: 44px;
+    height: 80px;
+    font-weight: 400;
+    font-size: 74px;
+    margin: 0px;
+    text-transform: capitalize;
+}
+#recenzii-info > p{
+    width: 203px;
+    height: 45px;
+    font-weight: 400;
+    font-size: 30px;
+    margin: 0px;
+    margin-top: 10px;
+    letter-spacing: 0.01em;
+}
+/************************************************************************/
+#appointment{
+    max-width: 1920px;
+    height: 808px;
+}
+/************************************************************************/
+footer{
+    margin: 160px auto 16px 160px;
+    background-color: white;
+    max-width: 1573px;
+    height: 354px;
+}
+footer > p{
+    margin: 0px;
+    margin-top: 42px;
+    text-align: center;
+}
+#footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#grp160{
+    width: 501px;
+    height: 279px;
+}
+#grp160 > img{
+    width: 156px;
+    height: 156px;
+}
+#grp160 > p{
+    max-width: 501px;
+    height: 99px;
+    font-weight: 400;
+    font-size: 22px;
+    letter-spacing: 0.01em;
+}
+#grp159{
+    width: 749px;
+    height: 208px;
+}
+.Highlited{
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    list-style: none;
+    margin-bottom: 4px;
+}
+.normal{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    list-style: none;
+    margin-top: 20px;
+}
+#main-list-footer{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/************************************************************************/
+@media screen and (max-width: 1680px) {
+    #grp160 > p{
+        font-size: 21px;
+    }
+    .Highlited{
+        font-size: 28px;
+    }
+    .normal{
+        font-size: 21px;
+    }
+  }
+  @media screen and (max-width: 1600px) {
+    #grp160 > p{
+        font-size: 20px;
+    }
+    .Highlited{
+        font-size: 26px;
+    }
+    .normal{
+        font-size: 20px;
+    }
+  }
+  @media screen and (max-width: 1440px) {
+    #grp160 > p{
+        font-size: 19px;
+    }
+    .Highlited{
+        font-size: 24px;
+    }
+    .normal{
+        font-size: 19px;
+    }
+  }
+  @media screen and (max-width: 1280px) {
+    #grp160 > p{
+        font-size: 18px;
+    }
+    .Highlited{
+        font-size: 24px;
+    }
+    .normal{
+        font-size: 18px;
+    }
+  }
